@@ -1,0 +1,29 @@
+  {
+    "manifest_version": 2,
+    "name": "Hebrew/English Translation Extension",
+    "description": "Translates selected text from Hebrew to English or vice versa.",
+    "version": "1.0",
+    "permissions": ["activeTab", "contextMenus", "commands"],
+    "background": {
+      "scripts": ["background.js"]
+    },
+    "icons": {
+      "16": "iconforextension.png",
+      "48": "iconforextension.png",
+     "128": "iconforextension.png"
+   },
+    "commands": {
+      "translate_text": {
+        "suggested_key": {
+          "default": "Ctrl+Shift+Q"
+        },
+        "description": "Translate selected text"
+      }
+    }
+     
+  }
+  
+
+
+
+  
